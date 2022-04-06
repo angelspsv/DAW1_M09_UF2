@@ -1,3 +1,9 @@
+@media (max-width: 600px) {
+    body {
+        flex-direction: column;
+    }
+}
+
 header {
     padding: 1rem;
     border: 2px solid black;
@@ -5,11 +11,21 @@ header {
 
 header > h1, h2 {
     text-align: right;
+    margin-top: -20px;
+}
+
+.links {
+    display: flex;
+    flex-wrap: nowrap;
 }
 
 .links > a {
     border: 1px solid black;
     text-align: center;
+    background-color: rgb(238, 133, 238);
+    width: 7vw;
+    height: 6vh;
+    font-size: 20px;
 }
 
 .flex-container {
@@ -24,7 +40,7 @@ header > h1, h2 {
     background-color: lightgreen;
 }
   
-  .flex-container > a {
+.flex-container > a {
     background-color: #f1f1f1;
     width: 100vw;
     margin: 5px;
