@@ -1,0 +1,85 @@
+.general {
+    height: auto;
+    width: auto;
+    background-image: linear-gradient(rgb(213, 16, 174), black);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.general {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 30px;
+    text-align: center;
+}
+
+.esquerra {
+    width: 50%;
+    height: 750px;
+    padding: 10px;
+    flex: 50%;
+}
+
+.dret {
+    background-color: aquamarine;
+    padding: 10px;
+    flex: 50%;
+}
+
+
+img {
+    padding-top: 100px;
+}
+
+@media (max-width: 1000px) {
+    .esquerra, .dret {
+        flex: 100%;
+    }
+}
+
+.nom {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    margin-top: -10px;
+    background-color: blueviolet;
+}
+
+.grup {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: aqua;
+    font-weight: bolder;
+}
+
+span {
+    text-align: center;
+    background-color: brown;
+}
+
+.dos {
+    background-color: chartreuse;
+}
+
+.dosuno {
+    background-color: darkkhaki;
+    flex: 24%;
+    float: left;
+    text-align: center;
+    font-size: large;
+}
+
+#canciones {
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+.dosdos {
+    background-color: deeppink;
+    flex: 24%;
+    float: right;
+    text-align: center;
+}
+

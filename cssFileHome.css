@@ -77,8 +77,8 @@ footer > h3 {
     text-align: right;
 }
 
-@media (max-width: 600px) {
-    body {
+@media (max-width: 900px) {
+    .flex-container {
         flex-direction: column;
     }
 }
