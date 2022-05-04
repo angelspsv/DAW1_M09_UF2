@@ -28,7 +28,7 @@
                         <p id="volume_show">90</p>
                         <div class="volume">
                             <i class="fa fa-volume-up" aria-hidden="true" id="volume_icon" onclick="mute_sound()"></i>
-                            <input type="range" min="0" max="100" value="90" onchange="volume_change()">
+                            <input type="range" min="0" max="100" value="90" onchange="volume_change()" id="volume">
                         </div>
                     </div>
 
@@ -58,5 +58,9 @@
             </div>
         </div>
     </div>
+
+    <!--- fitxer javascript --->
+    <script src="./audioScript.js"></script>
+
 </body>
 </html>
