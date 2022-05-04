@@ -32,43 +32,43 @@ let All_song = [
     },
     {
         name: "third song",
-        path: "./song1.mp3",
+        path: "./song3.mp3",
         singer: "Brian May, Tim Staffell"
     },
     {
         name: "fourth song",
-        path: "./song1.mp3",
+        path: "./song4.mp3",
         singer: "Brian May"
     },
     {
         name: "fifth song",
-        path: "./song1.mp3",
+        path: "./song5.mp3",
         singer: "Freddie Mercury"
     },
     {
         name: "sixth song",
-        path: "./song1.mp3",
-        singer: "Brian May, Tim Staffell"
+        path: "./song6.mp3",
+        singer: "Brian May"
     },
     {
         name: "seventh song",
-        path: "./song1.mp3",
-        singer: "Brian May, Tim Staffell"
+        path: "./song7.mp3",
+        singer: "Freddie Mercury"
     },
     {
         name: "eighth song",
-        path: "./song1.mp3",
-        singer: "Brian May, Tim Staffell"
+        path: "./song8.mp3",
+        singer: "Brian May"
     },
     {
         name: "ninth song",
         path: "./song1.mp3",
-        singer: "Brian May, Tim Staffell"
+        singer: "Freddie Mercury"
     },
     {
         name: "tenth song",
-        path: "./song1.mp3",
-        singer: "Brian May, Tim Staffell"
+        path: "./song2.mp3",
+        singer: "Freddie Mercury"
     }
 ];
 
