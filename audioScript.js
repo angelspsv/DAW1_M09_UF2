@@ -98,7 +98,7 @@ function reset_slider() {
 
 function justplay(){
     if(playing_song==false){
-        playing_song();
+        playsong();
     }else{
         pausesong();
     }
@@ -130,7 +130,7 @@ function next_song(){
 
 function previous_song(){
     if (index_no > 0){
-        index -= 1;
+        index_no -= 1;
         load_track(index_no);
         playsong();
     }else{

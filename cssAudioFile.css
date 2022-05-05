@@ -122,7 +122,7 @@ span {
 
 .volume input[type="range"] {
     -webkit-appearance: none;
-    width: 40%;
+    width: 50%;
     outline: none;
     height: 2px;
 }
@@ -199,7 +199,7 @@ input[type="range"]::-webkit-slider-thumb {
 
 .duration {
     background-color: dodgerblue;
-    width: 70px;
+    width: 80px;
 }
 
 .right #title {
@@ -255,12 +255,6 @@ input[type="range"]::-webkit-slider-thumb {
 
 .right #auto i {
     margin-left: 8px;
-}
-
-#auto {
-    border-radius: 30px;
-    float: right;
-    margin-right: -150px;
 }
 
 #play {
