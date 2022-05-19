@@ -29,8 +29,7 @@
     flex: 60%;
 }
 
-
-img {
+#img {
     padding-top: 100px;
 }
 
@@ -66,7 +65,6 @@ span {
 .dosuno {
     background-color: darkkhaki;
     width: 100%;
-    
     text-align: center;
     font-size: large;
 }
@@ -79,7 +77,6 @@ span {
 .dosdos {
     background-color: deeppink;
     width: 100%;
-    
     text-align: center;
     font-size: small;
     display: flex;
@@ -94,7 +91,7 @@ span {
 
 .dosdos #logo {
     position: absolute;
-    left: 5px;
+    left: 45px;
     font-size: 25px;
     color: #ccc;
     text-transform: capitalize;
@@ -115,7 +112,7 @@ span {
 
 .duration input[type="range"] {
     -webkit-appearance: none;
-    width: 70%;
+    width: 100%;
     outline: none;
     height: 2px;
 }
@@ -198,8 +195,8 @@ input[type="range"]::-webkit-slider-thumb {
 }
 
 .duration {
-    background-color: dodgerblue;
-    width: 80px;
+    width: 100px;
+    
 }
 
 .right #title {
@@ -279,28 +276,29 @@ input[type="range"]::-webkit-slider-thumb {
     display: flex;
     align-items: center;
     justify-content: center;
-    
     color: #fff;
     border-radius: 5px;
 }
 
 .show_song_no {
     background-color: aqua;
-    width: 40px;
+    width: 50px;
 }
 
 #title {
     background-color: yellowgreen;
-    width: 120px;
+    width: 100px;
+    
 }
 
 #artist {
     background-color: orange;
-    width: 100px;
+    width: 200px;
+    
 }
 
 .middle {
-    background-color: darkseagreen;
+    padding-left: 0px;
 }
 
 #pre {
